@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, E:/IntelFPGA_lite/18.1/atividades_aoc/P_OR.vhd
+source_file = 1, E:/IntelFPGA_lite/18.1/atividades_aoc/P_NOT.vhd
+source_file = 1, E:/IntelFPGA_lite/18.1/atividades_aoc/P_AND.vhd
+source_file = 1, E:/IntelFPGA_lite/18.1/atividades_aoc/P_XOR.vhd
+source_file = 1, E:/IntelFPGA_lite/18.1/atividades_aoc/Waveform_PXOR.vwf
+source_file = 1, e:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, e:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, e:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, e:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, E:/IntelFPGA_lite/18.1/atividades_aoc/db/P_XOR.cbx.xml
+design_name = P_XOR
+instance = comp, \S~output\, S~output, P_XOR, 1
+instance = comp, \B~input\, B~input, P_XOR, 1
+instance = comp, \A~input\, A~input, P_XOR, 1
+instance = comp, \G5|S~0\, G5|S~0, P_XOR, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, P_XOR, 1
